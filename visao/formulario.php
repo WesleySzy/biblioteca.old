@@ -28,7 +28,7 @@
     <div class="control-group">
         <div class="controls">
             <input type="submit" class="btn btn-primary" value="Gravar" />
-            <a href="index.php?controlador=livro&acao=lista" class="btn btn-default">Voltar</a>
+            <a href="home.php?controlador=livro&acao=lista" class="btn btn-default">Voltar</a>
         </div>
     </div>
 </div>

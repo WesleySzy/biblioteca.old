@@ -39,8 +39,8 @@
         <td><?= $livro -> getAutor() ?></td>
         <td><?= $livro -> getCategoria() ?></td>
         <td>
-        <a class="btn btn-small" rel="tooltip" data-placement="bottom" title="Editar Livro" id="editar" href="index.php?controlador=livro&acao=altera&id=<?= $livro -> getId() ?>"><i class="icon-pencil"></i></a> |
-        <a class="btn btn-small" rel="tooltip" data-placement="bottom" title="Excluir Livro" id="excluir"  href="index.php?controlador=livro&acao=deleta&id=<?= $livro -> getId() ?>" onclick="return confirm('Confirma exclusão?')"><i class="icon-trash"></i></a>
+        <a class="btn btn-small" rel="tooltip" data-placement="bottom" title="Editar Livro" id="editar" href="home.php?controlador=livro&acao=altera&id=<?= $livro -> getId() ?>"><i class="icon-pencil"></i></a> |
+        <a class="btn btn-small" rel="tooltip" data-placement="bottom" title="Excluir Livro" id="excluir"  href="home.php?controlador=livro&acao=deleta&id=<?= $livro -> getId() ?>" onclick="return confirm('Confirma exclusão?')"><i class="icon-trash"></i></a>
         </td>
     </tr>
     </tbody>
@@ -55,7 +55,7 @@
     <h3 id="myModalLabel" class="alignMiddle">Cadastrar Livro</h3>
   </div>
   <div class="modal-body">
-    <form class="form-horizontal well" action="index.php" method="POST" >
+    <form class="form-horizontal well" action="home.php" method="POST" >
             <input type="hidden" name="acao" value="insere_processa" />
             <?php
             require_once ('formulario_cadastro.php');

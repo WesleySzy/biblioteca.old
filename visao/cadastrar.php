@@ -14,14 +14,14 @@
 	</head>
 	<body>
 		<h2 align="center" class="well">Cadastrar Livro</h2>
-		<form class="form-horizontal well span6 offset5" action="index.php" method="POST" >
+		<form class="form-horizontal well span6 offset5" action="home.php" method="POST" >
 			<input type="hidden" name="acao" value="insere_processa" />
 			<?php
             require_once ('formulario_cadastro.php');
 			?>
 		</form>
 		<h2 align="center" class="well">Cadastrar Livro</h2>
-		<form class="form-horizontal well span6 offset5" action="index.php" method="POST" >
+		<form class="form-horizontal well span6 offset5" action="home.php" method="POST" >
 			<input type="hidden" name="acao" value="insere_processa" />
 			<?php
             require_once ('formulario_cadastro_aluno.php');

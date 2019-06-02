@@ -14,7 +14,7 @@ class livro_controlador {
             $livro -> setId($_GET['id']);
             $livro -> deleta();
         }
-        header('Location: index.php?controlador=livro&acao=lista');
+        header('Location: home.php?controlador=livro&acao=lista');
     }
 
     function insere() {
@@ -33,7 +33,7 @@ class livro_controlador {
         $livro -> setAutor($autor);
         $livro -> setCategoria($categoria);
         $livro -> insere();
-        header('Location: index.php?controlador=livro&acao=lista');
+        header('Location: home.php?controlador=livro&acao=lista');
 
     }
 
@@ -57,7 +57,7 @@ class livro_controlador {
         $livro -> setAutor($autor);
         $livro -> setCategoria($categoria);
         $livros = $livro -> altera($id);
-        header('Location: index.php?controlador=livro&acao=lista');
+        header('Location: home.php?controlador=livro&acao=lista');
     }
 
 }
