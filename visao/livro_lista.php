@@ -11,6 +11,7 @@
 </head>
 
 <body>
+
 <center><form class="form-inline">
     <a href="visao/cadastrar_aluno.php" class="btn btn-large btn-primary">Cadastrar Aluno</a>
     <a href="visao/formulario_cadastro_func.php" class="btn btn-large btn-primary">Cadastrar Funcionario</a>
