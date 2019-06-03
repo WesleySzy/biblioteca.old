@@ -30,8 +30,10 @@ $consulta =mysqli_query($conexao, "SELECT * FROM livro");
      
   
       </td>
+	  
     </tr>
     <?php } ?>
   </table>
+  <a href="javascript:history.back()">Voltar</a>
 </body>
 </html>
