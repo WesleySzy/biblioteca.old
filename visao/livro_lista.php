@@ -16,6 +16,7 @@
     <a href="visao/cadastrar_aluno.php" class="btn btn-large btn-primary">Cadastrar Aluno</a>
     <a href="visao/formulario_cadastro_func.php" class="btn btn-large btn-primary">Cadastrar Funcionario</a>
     <a href="visao/form_emprestimos.php" class="btn btn-large btn-primary">Emprestimos</a>
+	<a href="visao/show_livro.php" class="btn btn-inverse btn-large disabled">Relatório de Livros</a>
 </form></center>
 <h1 class="well" align="center">Listagem de Livros</h1>
 <div class="container-fluid">

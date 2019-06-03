@@ -17,9 +17,9 @@ $consulta =mysqli_query($conexao, "SELECT * FROM livro");
 <body>
   <table border="1">
     <tr>
-      <td>Código</td>
-      <td>Nome</td>
-      <td>E-mail</td>
+      <td>ISBN</td>
+      <td>Titulo</td>
+      <td>Autor</td>
      
     </tr>
     <?php while($dado = $consulta->fetch_array()) { ?>
