@@ -16,7 +16,9 @@
     <a href="visao/cadastrar_aluno.php" class="btn btn-large btn-primary">Cadastrar Aluno</a>
     <a href="visao/formulario_cadastro_func.php" class="btn btn-large btn-primary">Cadastrar Funcionario</a>
     <a href="visao/form_emprestimos.php" class="btn btn-large btn-primary">Emprestimos</a>
-	<a href="visao/show_livro.php" class="btn btn-inverse btn-large disabled">Relatório de Livros</a>
+	<a href="visao/show_livro.php" class="btn btn-inverse btn-primary ">Relatório de Livros</a>
+	<a href="visao/show_alunos.php" class="btn btn-inverse btn-primary ">Relatório de Alunos</a>
+	<a href="visao/show_funcionarios.php" class="btn btn-inverse btn-primary ">Relatório de Funcionários</a>
 </form></center>
 <h1 class="well" align="center">Listagem de Livros</h1>
 <div class="container-fluid">
@@ -66,6 +68,7 @@
 
   <div class="modal-footer">
     <button class="btn btn-danger" data-dismiss="modal" aria-hidden="true">Fechar</button>
+    
   </div>
 </div>
 
