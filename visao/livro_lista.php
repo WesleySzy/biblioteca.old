@@ -11,17 +11,39 @@
 </head>
 
 <body>
+    
+ <div class="navbar">
+  <div class="navbar-inner">
+    <div class="container">
+      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+ 
+      <!-- Be sure to leave the brand out there if you want it shown -->
+      <a class="brand" href="home.php">Home</a>
+      
+      
+      <a class="brand" href="visao/cadastrar_aluno.php">Cadastrar Aluno</a>
+      <a class="brand" href="visao/formulario_cadastro_func.php">Cadastrar Funcionário</a>
+      <a class="brand" href="visao/form_emprestimos.php">Controlar Empréstimos</a>
+      <a class="brand" href="visao/show_livro.php">Relatório De Livros</a>
+      <a class="brand" href="visao/show_alunos.php">Relatório De Alunos</a>
+      <a class="brand" href="visao/show_funcionarios.php">Relatório De Funcionários</a>
+ 
+    <!-- Everything you want hidden at 940px or less, place within here -->
+      <div class="nav-collapse collapse">
+        <!-- .nav, .navbar-search, .navbar-form, etc -->
+      </div>
+ 
+  </div>
+</div>
+</div>
 
-<center><form class="form-inline">
-    <a href="visao/cadastrar_aluno.php" class="btn btn-large btn-primary">Cadastrar Aluno</a>
-    <a href="visao/formulario_cadastro_func.php" class="btn btn-large btn-primary">Cadastrar Funcionario</a>
-    <a href="visao/form_emprestimos.php" class="btn btn-large btn-primary">Emprestimos</a>
-	<a href="visao/show_livro.php" class="btn btn-inverse btn-primary ">Relatório de Livros</a>
-	<a href="visao/show_alunos.php" class="btn btn-inverse btn-primary ">Relatório de Alunos</a>
-	<a href="visao/show_funcionarios.php" class="btn btn-inverse btn-primary ">Relatório de Funcionários</a>
-</form></center>
 <h1 class="well" align="center">Listagem de Livros</h1>
-<div class="container-fluid">
+ <div class="container-fluid">
     <table class="table table-hover">
     <thead>
         <tr>
