@@ -13,33 +13,42 @@
 <body>
     
  <div class="navbar">
-  <div class="navbar-inner">
-    <div class="container">
-      <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+   <div class="navbar-inner">
+      <div class="container">
+      
+    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </a>
+    </a>
  
-      <!-- Be sure to leave the brand out there if you want it shown -->
-      <a class="brand" href="home.php">Home</a>
+      
+      <a class="brand" href="home.php"><b>Home</b></a>
       
       
       <a class="brand" href="visao/cadastrar_aluno.php">Cadastrar Aluno</a>
       <a class="brand" href="visao/formulario_cadastro_func.php">Cadastrar Funcionário</a>
-      <a class="brand" href="visao/form_emprestimos.php">Controlar Empréstimos</a>
-      <a class="brand" href="visao/show_livro.php">Relatório De Livros</a>
-      <a class="brand" href="visao/show_alunos.php">Relatório De Alunos</a>
-      <a class="brand" href="visao/show_funcionarios.php">Relatório De Funcionários</a>
+      <a class="brand" href="visao/form_emprestimos.php">Cadastrar Empréstimos</a>
+      
  
-    <!-- Everything you want hidden at 940px or less, place within here -->
-      <div class="nav-collapse collapse">
-        <!-- .nav, .navbar-search, .navbar-form, etc -->
-      </div>
  
-  </div>
-</div>
+ 
+        
+                <ul class="nav navbar-nav">
+                    <li class="dropdown"><a href="#" class="dropdown-toggle"
+                        data-toggle="dropdown" role="button" aria-haspopup="true"
+                        aria-expanded="false">Relatorios<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="visao/show_livro.php">Relatório De Livros</a></li>
+                            <li><a href="visao/show_alunos.php">Relatório De Alunos</a></li>
+                            <li><a href="visao/show_funcionarios.php">Relatório De Funcionários</a></li>
+                    
+                        </ul> 
+					</li>
+                </ul>
+			
+		</div>
+   </div>
 </div>
 
 <h1 class="well" align="center">Listagem de Livros</h1>
