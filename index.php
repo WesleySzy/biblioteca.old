@@ -1,5 +1,8 @@
 <?php  
- session_start();  
+// grab recaptcha library
+require_once "recaptchalib.php";
+ 
+session_start();  
  $host = "localhost";  
  $username = "root";  
  $password = "";  
@@ -51,6 +54,7 @@
  <html>  
       <head>  
            <title>Login com PDO</title>  
+           <script src='https://www.google.com/recaptcha/api.js?hl=pt-BR'></script
            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  
            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  
            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
@@ -64,7 +68,7 @@
                      echo '<label class="text-danger">'.$message. '</label>';  
                 }  
                 ?>  
-                <h3 align="">PHP Login Script using PDO</h3><br />  
+                <h3 align="">Wesley Szytka</h3><br />  
                 <form method="post">  
                      <label>Username</label>  
                      <input type="text" name="username" class="form-control" />  
@@ -73,9 +77,13 @@
                      <input type="password" name="password" class="form-control" />  
                      <br />  
                      <input type="submit" name="login" class="btn btn-info" value="Login" />
-					 
+					 <div class="g-recaptcha"data-theme="dark" data-sitekey="6LfL8qYUAAAAAIkBfa_VjjtSzrJw3QrUPJQjbIEw"></div>
+                
+
                 </form>  
            </div>  
-           <br />  
+           <br />
+          
       </body>  
  </html>
+
